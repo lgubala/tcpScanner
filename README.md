@@ -45,11 +45,11 @@ $ python scanner.py 10.1.1.1 --s x --e y
 # 2.2 Kubernetize and deploy the scanner
 
 
-## apply manifest :
+## Apply manifest :
 ```
 $ kubectl apply -f scanner.yaml
 ```
-## get cron jobs
+## Get cron jobs
 ```
 $ kubectl get cj
 ```
